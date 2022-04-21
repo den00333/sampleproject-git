@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+      <title>First Vita Plus</title>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="logo"><img src="image/fvp_logo.jpg" alt="healthy"></div>
+        <nav>
+            <div class="wrapper">  
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="log.html">Log in</a></li>
+                </ul>
+            </div>    
+        </nav>
+        <div class="check">
+            <h4>Payment Form</h4>
+            <form action="" method="POST">
+                <h5>Account</h5>
+                <div class="input_group">
+                    <div class="input_box">
+                        <input type="text" placeholder="Full Name" required class="name">
+                    </div>
+                    <div class="input_box">
+                        <input type="text" placeholder="Name on card" class="name">
+                    </div>
+                </div>
+                <div class="input_group">
+                    <div class="input_box">
+                        <input type="email" placeholder="Email Address" required class="name">
+                    </div>
+                </div>
+                <div class="input_group">
+                    <div class="input_box">
+                        <input type="text" placeholder="Address" required class="name">
+                    </div>
+                </div>
+                <div class="input_group">
+                    <div class="input_box">
+                        <input type="text" placeholder="City" required class="name">
+                    </div>
+                </div>
+                <div class="input_group">
+                    <div class="input_box">
+                        <h5>Date Of Birth</h5>
+                        <input type="text" placeholder="DD" required class="dob"><br>
+                        <input type="text" placeholder="MM" required class="dob"><br>
+                        <input type="text" placeholder="YYYY" required class="dob">
+                    </div>
+                </div>
+                <div class="input_group">
+                    <div class="input_box">
+                        <h5>Payment Details</h5>
+                        <input type="radio" name="pay" class="radio" id="bc1" checked>
+                        <label for="bc1">Credit Card</label>
+                        <input type="radio" name="pay" class="radio" id="bc2" checked>
+                        <label for="bc2">Paypal</label>
+                    </div>
+                </div>
+                <div class="input_group">
+                    <div class="input_box">
+                        <input type="tel" class="name" placeholder="Card Number 1111-2222-3333-4444" required>
+                    </div>
+                </div>
+                <div class="input_group">
+                    <div class="input_box">
+                        <input type="tel" class="name" placeholder="Card CVC 632" required>
+                    </div>
+                </div>
+                <div class="input_group">
+                    <div class="input_box">
+                        <input type="number" class="name" placeholder="Exp Month" required>
+                    </div>
+                </div>
+                <div class="input_group">
+                    <div class="input_box">
+                        <input type="number" class="name" placeholder="Exp Year" required>
+                    </div>
+                </div>
+                <div class="input_group">
+                    <div class="input_box">
+                        <input type="number" class="name" placeholder="Enter Amount" required>
+                    </div>
+                </div>
+                <div class="input_group">
+                    <div class="input_box">
+                        <button type="submit">Pay Now</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
